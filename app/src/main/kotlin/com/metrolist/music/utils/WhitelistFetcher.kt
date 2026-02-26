@@ -11,7 +11,7 @@ import java.time.LocalDateTime
 object WhitelistFetcher {
     private val client = HttpClient()
     // Use raw.githubusercontent.com for direct JSON access (faster, no base64 decoding needed)
-    private const val WHITELIST_URL = "https://raw.githubusercontent.com/alltechdev/ytmusicjson/main/artists.json"
+    private const val WHITELIST_URL = "https://raw.githubusercontent.com/JMTDI/zemer-old/main/artists.json"
 
     var lastFetchTime = -1L
         private set
